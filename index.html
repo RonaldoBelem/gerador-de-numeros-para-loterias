@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Números das Loterias CAIXA</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Gerador de Números</h1>
+      <h2>
+        <img
+          src="https://www.caixa.gov.br/Style%20Library/images/logo-caixa-branco.png"
+          alt="Logo CAIXA"
+        />
+        Loterias
+      </h2>
+    </header>
+    <main>
+     
+      <select name="loteria" id="loteria">
+        <option value="">Selecione um Jogo</option>
+        <option value="mega-sena">Mega-Sena</option>
+        <option value="quina">Quina</option>
+        <option value="lotofacil">Lotofácil</option>
+        <option value="lotomania">Lotomania</option>
+        <option value="timemania">Timemania</option>
+        <option value="dia-de-sorte">Dia de Sorte</option>
+        <option value="dupla-sena">Dupla Sena</option>
+        <option value="super-sete">Super Sete</option>
+        <option value="mais-milionaria">+Milionária</option>
+        <option value="loteria-federal">Loteria Federal</option>
+      </select>
+      <br />
+      <span id="resultado">Realizar Sorteio</span><br />
+      <button id="jogar">Jogar</button>
+    </main>
+  </body>
+</html>
